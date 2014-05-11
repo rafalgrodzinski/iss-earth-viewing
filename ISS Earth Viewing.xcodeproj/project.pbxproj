@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B590C0D5191FDCCD00ED65B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B590C0D4191FDCCD00ED65B9 /* Cocoa.framework */; };
+		B590C0D7191FDCCD00ED65B9 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B590C0D6191FDCCD00ED65B9 /* ScreenSaver.framework */; };
+		B590C0E1191FDCCD00ED65B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B590C0DF191FDCCD00ED65B9 /* InfoPlist.strings */; };
+		B590C0E5191FDCCD00ED65B9 /* ISS_Earth_ViewingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B590C0E4191FDCCD00ED65B9 /* ISS_Earth_ViewingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B590C0D1191FDCCD00ED65B9 /* ISS Earth Viewing.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISS Earth Viewing.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B590C0D4191FDCCD00ED65B9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B590C0D6191FDCCD00ED65B9 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		B590C0D9191FDCCD00ED65B9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B590C0DA191FDCCD00ED65B9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B590C0DB191FDCCD00ED65B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B590C0DE191FDCCD00ED65B9 /* ISS Earth Viewing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISS Earth Viewing-Info.plist"; sourceTree = "<group>"; };
+		B590C0E0191FDCCD00ED65B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B590C0E2191FDCCD00ED65B9 /* ISS Earth Viewing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISS Earth Viewing-Prefix.pch"; sourceTree = "<group>"; };
+		B590C0E3191FDCCD00ED65B9 /* ISS_Earth_ViewingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISS_Earth_ViewingView.h; sourceTree = "<group>"; };
+		B590C0E4191FDCCD00ED65B9 /* ISS_Earth_ViewingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISS_Earth_ViewingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B590C0CC191FDCCD00ED65B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B590C0D7191FDCCD00ED65B9 /* ScreenSaver.framework in Frameworks */,
+				B590C0D5191FDCCD00ED65B9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B590C0C6191FDCCC00ED65B9 = {
+			isa = PBXGroup;
+			children = (
+				B590C0DC191FDCCD00ED65B9 /* ISS Earth Viewing */,
+				B590C0D3191FDCCD00ED65B9 /* Frameworks */,
+				B590C0D2191FDCCD00ED65B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B590C0D2191FDCCD00ED65B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B590C0D1191FDCCD00ED65B9 /* ISS Earth Viewing.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B590C0D3191FDCCD00ED65B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B590C0D4191FDCCD00ED65B9 /* Cocoa.framework */,
+				B590C0D6191FDCCD00ED65B9 /* ScreenSaver.framework */,
+				B590C0D8191FDCCD00ED65B9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B590C0D8191FDCCD00ED65B9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B590C0D9191FDCCD00ED65B9 /* AppKit.framework */,
+				B590C0DA191FDCCD00ED65B9 /* CoreData.framework */,
+				B590C0DB191FDCCD00ED65B9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B590C0DC191FDCCD00ED65B9 /* ISS Earth Viewing */ = {
+			isa = PBXGroup;
+			children = (
+				B590C0E3191FDCCD00ED65B9 /* ISS_Earth_ViewingView.h */,
+				B590C0E4191FDCCD00ED65B9 /* ISS_Earth_ViewingView.m */,
+				B590C0DD191FDCCD00ED65B9 /* Supporting Files */,
+			);
+			path = "ISS Earth Viewing";
+			sourceTree = "<group>";
+		};
+		B590C0DD191FDCCD00ED65B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B590C0DE191FDCCD00ED65B9 /* ISS Earth Viewing-Info.plist */,
+				B590C0DF191FDCCD00ED65B9 /* InfoPlist.strings */,
+				B590C0E2191FDCCD00ED65B9 /* ISS Earth Viewing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B590C0CD191FDCCD00ED65B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B590C0D0191FDCCD00ED65B9 /* ISS Earth Viewing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B590C0E8191FDCCD00ED65B9 /* Build configuration list for PBXNativeTarget "ISS Earth Viewing" */;
+			buildPhases = (
+				B590C0CB191FDCCD00ED65B9 /* Sources */,
+				B590C0CC191FDCCD00ED65B9 /* Frameworks */,
+				B590C0CD191FDCCD00ED65B9 /* Headers */,
+				B590C0CE191FDCCD00ED65B9 /* Resources */,
+				B590C0CF191FDCCD00ED65B9 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ISS Earth Viewing";
+			productName = "ISS Earth Viewing";
+			productReference = B590C0D1191FDCCD00ED65B9 /* ISS Earth Viewing.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B590C0C7191FDCCC00ED65B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = UnalignedByte;
+			};
+			buildConfigurationList = B590C0CA191FDCCC00ED65B9 /* Build configuration list for PBXProject "ISS Earth Viewing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B590C0C6191FDCCC00ED65B9;
+			productRefGroup = B590C0D2191FDCCD00ED65B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B590C0D0191FDCCD00ED65B9 /* ISS Earth Viewing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B590C0CE191FDCCD00ED65B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B590C0E1191FDCCD00ED65B9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		B590C0CF191FDCCD00ED65B9 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B590C0CB191FDCCD00ED65B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B590C0E5191FDCCD00ED65B9 /* ISS_Earth_ViewingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B590C0DF191FDCCD00ED65B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B590C0E0191FDCCD00ED65B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B590C0E6191FDCCD00ED65B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B590C0E7191FDCCD00ED65B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B590C0E9191FDCCD00ED65B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISS Earth Viewing/ISS Earth Viewing-Prefix.pch";
+				INFOPLIST_FILE = "ISS Earth Viewing/ISS Earth Viewing-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		B590C0EA191FDCCD00ED65B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISS Earth Viewing/ISS Earth Viewing-Prefix.pch";
+				INFOPLIST_FILE = "ISS Earth Viewing/ISS Earth Viewing-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B590C0CA191FDCCC00ED65B9 /* Build configuration list for PBXProject "ISS Earth Viewing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B590C0E6191FDCCD00ED65B9 /* Debug */,
+				B590C0E7191FDCCD00ED65B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B590C0E8191FDCCD00ED65B9 /* Build configuration list for PBXNativeTarget "ISS Earth Viewing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B590C0E9191FDCCD00ED65B9 /* Debug */,
+				B590C0EA191FDCCD00ED65B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B590C0C7191FDCCC00ED65B9 /* Project object */;
+}
