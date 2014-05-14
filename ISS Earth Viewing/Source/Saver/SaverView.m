@@ -20,29 +20,17 @@
 @implementation SaverView
 
 #pragma mark - Initialization
-- (id)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
+- (id)initWithFrame:(NSRect)frame_ isPreview:(BOOL)isPreview_
 {
-    self = [super initWithFrame:frame isPreview:isPreview];
+    self = [super initWithFrame:frame_ isPreview:isPreview_];
     if(self == nil)
         return nil;
 
-    [self setAnimationTimeInterval:1/30.0];
-    self.cameraView = [[CameraView alloc] initWithFrame:frame];
+    [self setAnimationTimeInterval:1/60.0];
+    self.cameraView = [[CameraView alloc] initWithFrame:frame_];
     [self addSubview:self.cameraView];
     
     return self;
-}
-
-
-- (void)startAnimation
-{
-    [super startAnimation];
-}
-
-
-- (void)stopAnimation
-{
-    [super stopAnimation];
 }
 
 
@@ -54,15 +42,12 @@
 
 
 #pragma mark - Drawing
-- (void)animateOneFrame
+- (void)drawRect:(NSRect)rect_
 {
-    return;
-}
-
-
-- (void)drawRect:(NSRect)rect
-{
-    [super drawRect:rect];
+    CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
+    
+    CGContextSetRGBFillColor(context, 0.0, 0.0, 0.0, 1.0);
+    CGContextFillRect(context, NSRectToCGRect(rect_));
 }
 
 @end

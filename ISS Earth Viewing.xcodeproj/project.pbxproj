@@ -18,6 +18,7 @@
 		B590C0F0191FDE6800ED65B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B590C0D4191FDCCD00ED65B9 /* Cocoa.framework */; };
 		B590C0FC191FDE6800ED65B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B590C0FB191FDE6800ED65B9 /* main.m */; };
 		B590C103191FDE6800ED65B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B590C102191FDE6800ED65B9 /* AppDelegate.m */; };
+		B5D1BCEF192424FD00CF773C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56B21F4192023D600433D7D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,6 @@
 		B590C0D1191FDCCD00ED65B9 /* ISS Earth Viewing.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISS Earth Viewing.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B590C0D4191FDCCD00ED65B9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B590C0D6191FDCCD00ED65B9 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
-		B590C0D9191FDCCD00ED65B9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		B590C0DB191FDCCD00ED65B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B590C0DE191FDCCD00ED65B9 /* ISS Earth Viewing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ISS Earth Viewing-Info.plist"; path = "Supporting Files/ISS Earth Viewing-Info.plist"; sourceTree = "<group>"; };
 		B590C0E3191FDCCD00ED65B9 /* SaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SaverView.h; path = Source/Saver/SaverView.h; sourceTree = "<group>"; };
 		B590C0E4191FDCCD00ED65B9 /* SaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SaverView.m; path = Source/Saver/SaverView.m; sourceTree = "<group>"; };
@@ -45,8 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B590C0D7191FDCCD00ED65B9 /* ScreenSaver.framework in Frameworks */,
 				B590C0D5191FDCCD00ED65B9 /* Cocoa.framework in Frameworks */,
+				B5D1BCEF192424FD00CF773C /* WebKit.framework in Frameworks */,
+				B590C0D7191FDCCD00ED65B9 /* ScreenSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +85,6 @@
 		B590C0D3191FDCCD00ED65B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B590C0DB191FDCCD00ED65B9 /* Foundation.framework */,
-				B590C0D9191FDCCD00ED65B9 /* AppKit.framework */,
 				B590C0D4191FDCCD00ED65B9 /* Cocoa.framework */,
 				B56B21F4192023D600433D7D /* WebKit.framework */,
 				B590C0D6191FDCCD00ED65B9 /* ScreenSaver.framework */,
@@ -353,6 +351,7 @@
 		B590C0E9191FDCCD00ED65B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
@@ -366,6 +365,7 @@
 		B590C0EA191FDCCD00ED65B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";

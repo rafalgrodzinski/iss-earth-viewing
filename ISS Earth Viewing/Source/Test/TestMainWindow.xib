@@ -666,19 +666,13 @@
             </connections>
         </menu>
         <window title="ISS Earth Viewer Test" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="eH4-ns-tfm">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="196" y="207" width="859" height="836"/>
+            <rect key="contentRect" x="196" y="207" width="1007" height="451"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
-            <view key="contentView" id="eHs-m0-krL">
-                <rect key="frame" x="0.0" y="0.0" width="859" height="836"/>
+            <view key="contentView" id="eHs-m0-krL" customClass="CameraView">
+                <rect key="frame" x="0.0" y="0.0" width="1007" height="451"/>
                 <autoresizingMask key="autoresizingMask"/>
-                <subviews>
-                    <customView id="8Id-WO-ME4" customClass="CameraView">
-                        <rect key="frame" x="0.0" y="0.0" width="859" height="836"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    </customView>
-                </subviews>
             </view>
         </window>
     </objects>
