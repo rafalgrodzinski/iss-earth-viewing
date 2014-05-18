@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 UnalignedByte. All rights reserved.
 //
 
-#import <WebKit/WebKit.h>
+#import <Cocoa/Cocoa.h>
 
 
 @interface CameraView : NSView

@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50578281928F4C5004F561E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50578271928F4C5004F561E /* AVKit.framework */; };
+		B50578291928F78E004F561E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50578271928F4C5004F561E /* AVKit.framework */; };
 		B56B21EE192022F300433D7D /* TestMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56B21ED192022F300433D7D /* TestMainWindow.xib */; };
 		B56B21F1192023B700433D7D /* CameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = B56B21EF192023B700433D7D /* CameraView.h */; };
 		B56B21F2192023B700433D7D /* CameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B21F0192023B700433D7D /* CameraView.m */; };
 		B56B21F3192023B700433D7D /* CameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56B21F0192023B700433D7D /* CameraView.m */; };
-		B56B21F5192023D600433D7D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56B21F4192023D600433D7D /* WebKit.framework */; };
 		B590C0D5191FDCCD00ED65B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B590C0D4191FDCCD00ED65B9 /* Cocoa.framework */; };
 		B590C0D7191FDCCD00ED65B9 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B590C0D6191FDCCD00ED65B9 /* ScreenSaver.framework */; };
 		B590C0E5191FDCCD00ED65B9 /* SaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = B590C0E4191FDCCD00ED65B9 /* SaverView.m */; };
 		B590C0F0191FDE6800ED65B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B590C0D4191FDCCD00ED65B9 /* Cocoa.framework */; };
 		B590C0FC191FDE6800ED65B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B590C0FB191FDE6800ED65B9 /* main.m */; };
 		B590C103191FDE6800ED65B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B590C102191FDE6800ED65B9 /* AppDelegate.m */; };
-		B5D1BCEF192424FD00CF773C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56B21F4192023D600433D7D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B50578271928F4C5004F561E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		B56B21ED192022F300433D7D /* TestMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestMainWindow.xib; path = Source/Test/TestMainWindow.xib; sourceTree = "<group>"; };
 		B56B21EF192023B700433D7D /* CameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraView.h; path = Source/Common/CameraView.h; sourceTree = "<group>"; };
 		B56B21F0192023B700433D7D /* CameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraView.m; path = Source/Common/CameraView.m; sourceTree = "<group>"; };
-		B56B21F4192023D600433D7D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		B590C0D1191FDCCD00ED65B9 /* ISS Earth Viewing.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISS Earth Viewing.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B590C0D4191FDCCD00ED65B9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B590C0D6191FDCCD00ED65B9 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
@@ -45,7 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B590C0D5191FDCCD00ED65B9 /* Cocoa.framework in Frameworks */,
-				B5D1BCEF192424FD00CF773C /* WebKit.framework in Frameworks */,
+				B50578281928F4C5004F561E /* AVKit.framework in Frameworks */,
 				B590C0D7191FDCCD00ED65B9 /* ScreenSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B590C0F0191FDE6800ED65B9 /* Cocoa.framework in Frameworks */,
-				B56B21F5192023D600433D7D /* WebKit.framework in Frameworks */,
+				B50578291928F78E004F561E /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				B590C0D4191FDCCD00ED65B9 /* Cocoa.framework */,
-				B56B21F4192023D600433D7D /* WebKit.framework */,
+				B50578271928F4C5004F561E /* AVKit.framework */,
 				B590C0D6191FDCCD00ED65B9 /* ScreenSaver.framework */,
 			);
 			name = Frameworks;
@@ -349,6 +349,7 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "ISS Earth Viewing/Supporting Files/ISS Earth Viewing-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -363,6 +364,7 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "ISS Earth Viewing/Supporting Files/ISS Earth Viewing-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -380,6 +382,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/ISS Earth Viewing/Supporting Files/ISS Earth Viewing Test-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "$(SRCROOT)/ISS Earth Viewing/Supporting Files/ISS Earth Viewing Test-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

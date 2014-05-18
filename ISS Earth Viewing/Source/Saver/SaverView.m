@@ -17,6 +17,7 @@
 
 @end
 
+
 @implementation SaverView
 
 #pragma mark - Initialization
@@ -26,7 +27,6 @@
     if(self == nil)
         return nil;
 
-    [self setAnimationTimeInterval:1/60.0];
     self.cameraView = [[CameraView alloc] initWithFrame:frame_];
     [self addSubview:self.cameraView];
     
